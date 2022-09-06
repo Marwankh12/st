@@ -23,8 +23,8 @@ export default function id(data){
     <h4>{data.price}$</h4>
 <input type='number' placeholder='enter quanity' />
 <div className="buttons">
-    <div className='btn btn-primary'>Buy Now</div>
-    <div className='btn btn-success'>Add to Cart</div>
+    <div className='btn btn-outline-primary'>Buy Now</div>
+    <div className='btn btn-outline-success'>Add to Cart</div>
 </div>
 <div className="add">
     <span><i className="fas fa-love"></i>Add to Enhacment</span>
