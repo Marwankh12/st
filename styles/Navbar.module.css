@@ -1,0 +1,16 @@
+ .x{
+
+    position: relative;
+}
+ .x::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    position: absolute;
+}
+ .x:hover ::before{
+width: 100%;
+}
